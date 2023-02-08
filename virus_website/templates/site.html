@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nothing</title>
+</head>
+<body>
+    <h6 class="command">{{ list.command }}</h6>
+    <h6 class="filename">{{ list.filename }}</h6>
+    <h6 class="text">{{ list.text }}</h6>
+    <h6 class="path">{{ list.path }}</h6>
+
+    {% for file in files %}
+        <h6 class="file">{{ file }}</h6>
+    {% endfor %}
+</body>
+</html>
