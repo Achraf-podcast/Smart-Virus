@@ -36,7 +36,7 @@ def download_files():
         wget.download(website + 'static/' + file.text, "all_files")
 
 
-website = 'https://sharafox.pythonanywhere.com/'
+website = 'http://127.0.0.1:5000/'
 current_path = ""
 
 os.system('cls')
