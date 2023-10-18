@@ -14,7 +14,7 @@ import datetime
 import time
 import geocoder
 
-website = 'https://sharafox.pythonanywhere.com/'
+website = 'http://127.0.0.1:5000/'
 current_path = os.environ['USERPROFILE']
 msg = False
 
